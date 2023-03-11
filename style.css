@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url('/assets/HD-wallpaper-black-dice-black-dice.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.main {
+    background: rgba(192, 192, 192, 0.534);
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+
+
+}
+
+.active {
+    background-color: #141414af;
+    color: white;
+}
+
+
+.dicescorebox {
+    background-color: white;
+    width: 100px;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
+
+.centerLine {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button1 {
+   
+    background-color: transparent;
+    border: 3px solid #e3e7e7;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #fbfcfc;
+    padding: 10px;
+}
+
+.button1:hover {
+    box-shadow: 0 0 10px 0 #1b1b1b inset, 0 0 20px 2px #fafafa;
+    border: 3px solid #1a1d22;
+}
